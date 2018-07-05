@@ -28,6 +28,13 @@ header {
   background-color: #2868b3;
   position: relative;
 }
+header .back {
+  position: absolute;
+  width: 20px;
+  height: auto;
+  top: 10px;
+  left: 20px;
+}
 header .title {
   color: #fff;
   font-size: 14px;

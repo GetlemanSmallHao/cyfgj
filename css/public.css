@@ -17,6 +17,7 @@ body {
 }
 .bgf {
   background-color: #fff;
+  border-bottom: 1px solid #e3e3e3;
 }
 .clear {
   clear: both;
@@ -67,9 +68,11 @@ header .index_icon {
 }
 .item_content .item_title {
   position: absolute;
+  width: 61%;
   top: 13px;
-  left: 47%;
+  left: 33%;
   font-size: 18px;
+  text-align: center;
 }
 .item_content .item_search {
   position: absolute;
@@ -77,6 +80,9 @@ header .index_icon {
   right: 3%;
   bottom: 10px;
   font-size: 14px;
+}
+.item_last {
+  margin-bottom: 100px;
 }
 @media screen and (min-width: 380px) {
   .item_content .item_search {

@@ -8,6 +8,6 @@ $(document).ready(function(){
 		$(this).css('border-bottom','1px solid #2868b3').siblings().css('border-bottom','none');
 		$('.tab_content').css('display','none');
 		let index = $(this).index();
-		$('.tab_content').eq(index).fadeIn();
+		$('.tab_content').eq(index).fadeIn('slow');
 	});
 })

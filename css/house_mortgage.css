@@ -1,0 +1,70 @@
+.tab_title {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+}
+.tab_title li {
+  float: left;
+  width: 25%;
+}
+.tab_title li p {
+  text-align: center;
+  box-sizing: border-box;
+}
+.tab_title li:first-child {
+  border-bottom: 1px solid #2868b3;
+}
+.tab_content {
+  display: none;
+}
+/* 默认第一个div显示 */
+.tab_content:nth-of-type(2) {
+  display: block;
+}
+.checkin {
+  margin-top: 10px;
+}
+.checkin h5 {
+  margin-left: 10%;
+  height: 36px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 36px;
+  color: #898989;
+  border-bottom: 1px solid #e3e3e3;
+}
+.checkin p {
+  margin-left: 18%;
+  line-height: 24px;
+  font-weight: 500;
+  margin-right: 15%;
+}
+.checkin p:nth-of-type(1) {
+  margin-top: 8px;
+}
+.checkin p:last-child {
+  margin-bottom: 8px;
+}
+.contactus {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.contactus li {
+  float: left;
+  width: 50%;
+}
+.contactus a {
+  display: block;
+  height: 50px;
+  color: #2688fa;
+  line-height: 50px;
+  font-size: 14px;
+  text-align: center;
+}
+.contactus a img {
+  width: 24px;
+  position: relative;
+  top: 7px;
+  left: -4px;
+}

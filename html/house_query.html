@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+	<title>长垣县房产管理局微信服务平台</title>
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/house_query.css">
+</head>
+<body>
+	<header>
+		<img src="../img/back.png" alt="请重新加载" class="back">
+		<p class="title">商品房查询</p>
+		<a class="index_icon" href="./index.html"></a>
+	</header>
+	<div class="content_form bgf">
+		<label>区域</label>
+		<select name="">
+			<option value="aa">郑州</option>
+			<option value="aa">新乡</option>
+			<option value="aa">长垣</option>
+			<option value="aa">洛阳</option>
+		</select>
+		<label for="">许可证号</label>
+		<input class="common_input" type="text">
+		<label for="">项目名称</label>
+		<input class="common_input" type="text">
+		<label for="">企业名称</label>
+		<input class="common_input" type="text">
+		<label for="">验证码</label>
+		<input class="common_input verification_code" type="text">
+		<img class="verification_img" src="../img/verification_code.jpg" alt="请重新加载">
+		<button class="no_clear btn">看不清</button>
+		<button class="query btn">查询</button>
+		<input class="delete btn" type="reset" value="清除">
+	</div>
+</body>
+<!-- 公共js，引入支持返回上一页 -->
+<script type="text/javascript" src="../utils/api.js"></script>
+<script type="text/javascript" src="../js/house_query.js"></script>
+</html>

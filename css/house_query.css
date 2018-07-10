@@ -1,0 +1,37 @@
+.content_form {
+  padding-bottom: 50px;
+}
+.content_form label {
+  display: block;
+  margin: 10px 5%;
+}
+.content_form .verification_code {
+  width: 22%;
+}
+.content_form .verification_img {
+  width: 22%;
+  margin-left: 10%;
+  position: relative;
+  top: 7px;
+}
+.content_form .no_clear {
+  width: 22%;
+  background-color: #f38917;
+  margin-left: 10%;
+}
+.content_form .query {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 30px;
+  background-color: #2868b3;
+}
+.content_form .delete {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15px;
+}
+@media screen and (min-width: 376px) {
+  .content_form .verification_img {
+    top: 11px;
+  }
+}

@@ -25,6 +25,21 @@ body {
 .clear {
   clear: both;
 }
+select,
+.common_input {
+  width: 90%;
+  height: 30px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  border: 1px solid #9c9c9c;
+  border-radius: 5px;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 7px 10px;
+}
 /*****公共头部*******/
 header {
   width: 100%;

@@ -1,0 +1,36 @@
+.info {
+  width: 92%;
+  margin: 10px 4%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.info .left {
+  float: left;
+  width: 46%;
+}
+.info .left p:first-child {
+  margin-top: 10px;
+}
+.info .left p {
+  margin-left: 15px;
+  margin-top: 25px;
+  color: #898989;
+}
+.info .left p:last-child {
+  margin-bottom: 15px;
+}
+.info .right {
+  float: right;
+  width: 54%;
+}
+.info p:first-child {
+  margin-top: 10px;
+}
+.info p {
+  margin-top: 25px;
+  color: #000;
+  word-wrap: break-word;
+}
+.info p:last-child {
+  margin-bottom: 15px;
+}

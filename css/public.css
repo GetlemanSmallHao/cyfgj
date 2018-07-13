@@ -26,13 +26,14 @@ body {
   clear: both;
 }
 select,
-.common_input {
+.common_input[type=text] {
   width: 90%;
   height: 30px;
   margin-left: 5%;
   margin-bottom: 10px;
   border: 1px solid #9c9c9c;
   border-radius: 5px;
+  font-size: 14px;
 }
 .btn {
   border: none;

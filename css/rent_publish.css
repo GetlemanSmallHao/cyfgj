@@ -130,5 +130,5 @@
 .file-item {
   margin-left: 5%;
   width: 27.8%;
-  float: left;
+  display: inline-block;
 }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+	<title>长垣县房产管理局微信服务平台</title>
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/registered.css">
+</head>
+<body>
+	<header>
+		<img src="../img/back.png" alt="请重新加载" class="back">
+		<p class="title">个人信息填写</p>
+		<a class="index_icon" href="./index.html"></a>
+	</header>
+	<div class="content_form bgf">
+		<div class="item">
+			<span>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名<span class="red"> *</span></span>
+			<input class="common_input" type="text" placeholder="请输入真实姓名">
+		</div>
+		<div class="item item_select">
+			<span>证件类型<span class="red"> *</span></span>
+			<!-- <select name="">
+				<option value="身份证">身份证</option>
+				<option value="身份证">军官证</option>
+			</select> -->
+			<span class="content">身份证</span>
+			<img src="../img/slide_right.png" alt="请重新加载">
+			<div class="select">
+				<ul>
+					<li>身份证</li>
+					<li>军官证</li>
+				</ul>
+			</div>
+		</div>
+		<div class="item">
+			<span>证件号码<span class="red"> *</span></span>
+			<input class="common_input" type="text" placeholder="请输入正确的证件号码">
+		</div>
+		<div class="item">
+			<span>手机号码<span class="red"> *</span></span>
+			<input class="common_input" type="text" placeholder="请输入您的可用手机号码">
+		</div>
+		<div class="item item_code">
+			<span>验&nbsp; 证 &nbsp;码<span class="red"> *</span></span>
+			<input class="common_input" type="text" placeholder="请输入验证码">
+		</div>
+		<img class="code" src="../img/verification_code.jpg" alt="请重新加载">
+		<div class="item item_code">
+			<span>动态密码<span class="red"> *</span></span>
+			<input class="common_input" type="text" placeholder="请输入动态密码">
+		</div>
+		<input type="button" class="btn obtain" value="获取动态密码">
+		<div class="item">
+			<span style="float:left;">所在地区&nbsp;&nbsp;&nbsp;</span>
+			<div class="distpicker" data-toggle="distpicker">
+				<select class="dist appnone" disabled="disabled" data-province="河南省"></select>
+				<select class="dist appnone" disabled="disabled" data-city="新乡市"></select>
+				<select class="dist" data-district="长垣县"></select>
+			</div>
+		</div>
+		<div class="item">
+			<span>详细地址&nbsp;&nbsp;&nbsp;</span>
+			<input class="common_input" type="text" placeholder="请输入详细地址">
+		</div>
+		<button class="query btn">注册</button>
+		<div class="alert">
+			<h4>温馨提示</h4>
+			<p>为确保您的信息安全，若您连续三个月没有登录，我们将清空您的个人信息。</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+<script src="../utils/api.js"></script>
+<script src="../utils/jquery.min.js"></script>
+<script src="../utils/distpicker.data.js"></script>
+<script src="../utils/distpicker.js"></script>
+<script src="../utils/main.js"></script>
+<script src="../js/registered.js"></script>
+</html>

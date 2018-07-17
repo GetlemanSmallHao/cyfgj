@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+	<title>长垣县房产管理局微信服务平台</title>
+	<link rel="stylesheet" href="../mui/webuploader.css">
+	<link rel="stylesheet" href="../mui/mui.min.css">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/sell_publish.css">
+</head>
+<body>
+	<header>
+		<img src="../img/back.png" alt="请重新加载" class="back">
+		<p class="title">出售信息填写</p>
+		<a class="index_icon" href="./index.html"></a>
+	</header>
+	<div class="kind bgf">
+		<p class="headline">基础信息</p>
+		<h5><span>* </span>供求</h5>
+		<div class="mui-input-row mui-radio mui-left fn">
+			<label>出售</label>
+			<input name="radio1" type="radio">
+		</div>
+		<h5><span>* </span>选择身份</h5>
+		<div class="mui-input-row mui-radio mui-left">
+			<label>个人转让</label>
+			<input name="radio2" type="radio">
+		</div>
+		<div class="mui-input-row mui-radio mui-left">
+			<label>商家转让</label>
+			<input name="radio2" type="radio">
+		</div>
+		<div class="clear"></div>
+		<h5><span>* </span>小区名称</h5>
+		<input class="common_input" type="text" placeholder="只填写小区名，例如嘉园小区">
+		<h5><span>* </span>房屋类型</h5>
+		<div class="ipt_div">
+			<input type="text">
+			<span>室</span>
+		</div>
+		<div class="ipt_div">
+			<input type="text">
+			<span>厅</span>
+		</div>
+		<div class="ipt_div">
+			<input type="text">
+			<span>卫</span>
+		</div>
+		<div class="ipt_div">
+			<span class="m2">共</span>
+			<input class="double" type="text">
+			<span>㎡</span>
+		</div><br/><br/><br/><br/>
+		<h5><span>* </span>总价</h5>
+		<div class="ipt_div ipt_div2">
+			<input class="double" type="text">
+			<span>万</span>
+		</div>
+		<h5><span>* </span>标题</h5>
+		<input class="common_input" type="text">
+		<div class="slide">
+			<div class="add">+</div>
+			<p class="more">更多选填信息</p>
+			<p>丰富内容可使成交加快一倍</p>
+		</div>
+		<div class="note">
+			<h5>备注</h5>
+			<textarea name="" id="" cols="5" rows="4"></textarea>	
+		</div>
+		<h5>上传照片</h5>
+		<div id="list"></div>
+		<div id="uploader-demo">
+		    <!--用来存放item-->
+		    <div id="fileList" class="uploader-list"></div>
+		    <div id="filePicker">选择图片</div>
+		</div>
+	</div>
+	<div class="kind kind2 bgf">
+		<p class="headline">联系方式</p>
+		<h5><span>* </span>联系电话</h5>
+		<input type="number" class="common_input phone">
+		<div class="clear"></div>
+	</div>
+	<a href="#" class="btn publish">发布</a>
+</body>
+<script type="text/javascript" src="../utils/jquery.min.js"></script>
+<script type="text/javascript" src="../mui/webuploader.js"></script>
+<!-- 公共js，引入支持返回上一页 -->
+<script type="text/javascript" src="../utils/api.js"></script>
+<script type="text/javascript" src="../js/sell_publish.js"></script>
+</html>

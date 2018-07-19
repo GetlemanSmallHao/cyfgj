@@ -1,0 +1,137 @@
+body {
+  position: relative;
+}
+.red {
+  color: #fc4d4d;
+}
+.grey {
+  color: #898989;
+}
+.blue {
+  color: #72a9ef;
+  float: right;
+  font-size: 12px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.big {
+  font-size: 16px;
+}
+.swiper-container img {
+  width: 100%;
+  max-height: 180px;
+}
+.swiper-pagination-fraction {
+  color: #fff;
+  width: 17%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  left: 78%;
+  bottom: 30px;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 27vh;
+  z-index: 2;
+}
+.list {
+  width: 94%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.first {
+  text-align: center;
+}
+.first .top {
+  width: 81%;
+  padding-top: 10px;
+  margin-left: 10%;
+}
+.first .top .center {
+  float: left;
+  width: 1px;
+  height: 30px;
+  position: relative;
+  top: 7px;
+  background-color: #e3e3e3;
+}
+.first .top .left {
+  float: left;
+  width: 49%;
+}
+.first .top p {
+  padding: 5px 0;
+}
+.first .bottom {
+  float: left;
+  width: 81%;
+  margin-left: 10%;
+  border-top: 1px solid #e3e3e3;
+  margin-bottom: 5px;
+}
+.second {
+  padding-top: 1px;
+  padding-bottom: 15px;
+}
+.second p {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.second .grey_fl {
+  display: inline-block;
+  float: left;
+}
+.second .double {
+  display: block;
+  float: left;
+  width: 70%;
+  margin-left: 10px;
+}
+.second iii {
+  margin-left: 10px;
+}
+.second .marlf {
+  margin-left: 68px;
+}
+.second bao {
+  display: inline-block;
+  width: 64px;
+  margin-left: 5px;
+  position: relative;
+}
+.second bao input {
+  position: relative;
+  top: 2px;
+}
+.second bao img {
+  width: 15px;
+  left: 0;
+  top: 2px;
+  position: absolute;
+}
+.second bao:last-child {
+  width: 100px;
+}
+.third {
+  padding-top: 1px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.third .big {
+  margin: 12px 0 0 20px;
+  float: left;
+  width: 60%;
+}
+.third .lianxi {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  text-align: center;
+}
+.third .lianxi img {
+  width: 40px;
+}

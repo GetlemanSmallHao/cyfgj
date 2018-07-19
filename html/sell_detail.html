@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+	<title>长垣县房产管理局微信服务平台</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/sell_detail.css">
+</head>
+<body>
+	<header>
+		<img src="../img/back.png" alt="请重新加载" class="back">
+		<p class="title">详情</p>
+		<a class="index_icon" href="./index.html"></a>
+	</header>
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+	        	<img src="../img/house_detail.jpg" alt="请重新加载">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="../img/house_detail.jpg" alt="请重新加载">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="../img/house_detail.jpg" alt="请重新加载">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="../img/house_detail.jpg" alt="请重新加载">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="../img/house_detail.jpg" alt="请重新加载">
+	        </div>
+	    </div>
+	    <!-- 如果需要分页器 -->
+	    <div class="swiper-pagination"></div>
+	</div>
+	<div class="content">
+		<div class="list first">
+			<div class="top">
+				<div class="left">
+					<p class="grey">面积</p>
+					<p class="red">149㎡</p>
+				</div>
+				<div class="center"></div>
+				<div class="left">
+					<p class="grey">户型</p>
+					<p class="red">3室2厅1卫</p>
+				</div>
+				<div class="bottom">
+					<p class="big">嘉园小区低价出售</p>
+					<p class="red">售价 140万</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="list second">
+			<p><span class="grey">供&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;求:</span><iii>出售</iii></p>
+			<p><span class="grey">身&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;份:</span><iii>个人转让</iii></p>
+			<p><span class="grey">所在小区:</span><iii>嘉园小区</iii></p>
+			<p><span class="grey grey_fl">租金包含:</span>
+				<span class="double">精装修，南北朝向，2017建房，可随时联系查看房情</span>
+			</p>
+			<div class="clear"></div>
+		</div>
+		<div class="list third">
+			<p class="grey big">请联系房管局:</p>
+			<p class="grey big">12345678998</p>
+			<div class="lianxi">
+				<img src="../img/lianxidianhua.png" alt="请重新加载">
+				<p class="grey">电话</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+<script src="../utils/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.back').on('click',function(){
+			history.go(-1);
+		})
+	    var swiper = new Swiper('.swiper-container', {
+	    	loop: true,
+	    	autoplay: true,
+	        pagination: {
+	            el: '.swiper-pagination',
+	            type: 'fraction',
+	        },
+	    })       
+	})
+</script>
+</html>

@@ -73,21 +73,21 @@
   border-radius: 5px;
   font-size: 14px;
 }
-.kind2 {
+.kind3 {
   margin-top: 10px;
 }
-.kind2 .common_input[type=text] {
+.kind3 .common_input[type=text] {
   width: 45%;
 }
-.kind2 div {
+.kind3 div {
   margin-bottom: 25px;
 }
-.kind2 div input {
+.kind3 div input {
   margin-left: 5%;
   position: relative;
   top: 2px;
 }
-.kind2 div img {
+.kind3 div img {
   width: 15px;
   margin-left: 10%;
 }

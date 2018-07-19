@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+	<title>长垣县房产管理局微信服务平台</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/request_detail.css">
+</head>
+<body>
+	<header>
+		<img src="../img/back.png" alt="请重新加载" class="back">
+		<p class="title">详情</p>
+		<a class="index_icon" href="./index.html"></a>
+	</header>
+	<div class="content">
+		<div class="first bgf">
+			<h4 class="big">建业魔飞公寓 简装毛坯求托管三室一厅</h4>
+			<div class="left">
+				<h4>区域:</h4>
+				<h4>居室:</h4>
+				<h4>租金:</h4>
+				<h4>入住:</h4>
+				<h4>说明:</h4>
+			</div>
+			<div class="right">
+				<p>长垣县泰康路</p>
+				<p class="grey">整租四室</p>
+				<p class="red">3000-4500 <span class="grey">元/月</span></p>
+				<p class="grey">7月31日后</p>
+				<p class="grey">房间干净整洁无异味，有空调热水器洗衣机暖气，厨房可使用。</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="third bgf">
+			<p class="grey big">请联系房管局:</p>
+			<p class="grey big">12345678998</p>
+			<div class="lianxi">
+				<img src="../img/lianxidianhua.png" alt="请重新加载">
+				<p class="grey">电话</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+<script src="../utils/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.back').on('click',function(){
+			history.go(-1);
+		})
+		$('.right p').each(function (index,item){
+			let height = $(this).height();
+			$('.left h4').eq(index).height(height);
+		});  
+	})
+</script>
+</html>

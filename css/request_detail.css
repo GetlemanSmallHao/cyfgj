@@ -1,0 +1,53 @@
+.red {
+  color: #fc4d4d;
+}
+.grey {
+  color: #898989;
+}
+.big {
+  font-size: 16px;
+}
+.first {
+  padding-top: 1px;
+}
+.first .big {
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-bottom: 1px solid #e3e3e3;
+}
+.first .left {
+  float: left;
+  width: 25%;
+}
+.first .left h4 {
+  margin: 8px 0 8px 20px;
+}
+.first .right {
+  padding-right: 20px;
+}
+.first .right p {
+  margin: 8px 0 8px 20px;
+}
+.third {
+  margin-top: 10px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.third .big {
+  margin: 12px 0 0 20px;
+  float: left;
+  width: 60%;
+}
+.third .lianxi {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  text-align: center;
+}
+.third .lianxi img {
+  width: 40px;
+}

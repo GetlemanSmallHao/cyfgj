@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+	<title>长垣县房产管理局微信服务平台</title>
+	<link rel="stylesheet" href="../mui/mui.min.css">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/request_publish.css">
+</head>
+<body>
+	<header>
+		<img src="../img/back.png" alt="请重新加载" class="back">
+		<p class="title">求租信息填写</p>
+		<a class="index_icon" href="./index.html"></a>
+	</header>
+	<div class="kind bgf">
+		<p class="headline">基础信息</p>
+		<h5><span>* </span>求租地段</h5>
+		<select name="" id="">
+			<option value="哈哈哈">哈哈哈</option>
+			<option value="呵呵呵">呵呵呵</option>
+		</select>
+		<select name="" id="">
+			<option value="哈哈哈">哈哈哈</option>
+			<option value="呵呵呵">呵呵呵</option>
+		</select>
+		<h5><span>* </span>租金</h5>
+		<select name="" id="">
+			<option value="哈哈哈">哈哈哈</option>
+			<option value="呵呵呵">呵呵呵</option>
+		</select>
+		<select name="" id="">
+			<option value="哈哈哈">哈哈哈</option>
+			<option value="呵呵呵">呵呵呵</option>
+		</select>
+		<h5><span>* </span>最晚入住时间</h5>
+		<div class="calendarWarp">
+			<input class="common_input time ECalendar" type="text" name="date" id="ECalendar_date">
+		</div>
+	</div>
+	<div class="kind kind2 bgf">
+		<p class="headline">补充信息</p>
+		<h5><span>* </span>标题</h5>
+		<input class="common_input" type="text">
+		<h5><span>* </span>补充说明</h5>
+		<div class="note">
+			<textarea name="" id="" cols="5" rows="4" placeholder="例如对房子内部的家电要求，对自己情况的描述等等"></textarea>	
+		</div>
+	</div>
+	<div class="kind kind2 bgf">
+		<p class="headline">其他信息</p>
+		<h5><span>* </span>联系人</h5>
+		<input type="text" class="common_input phone">
+		<div>
+			<input type="checkbox">
+			<span>商家转让</span>
+			<img src="../img/help.png" alt="请重新加载">
+		</div>
+		<h5><span>* </span>手机或电话</h5>
+		<input type="text" class="common_input phone">
+		<div class="clear"></div>
+	</div>
+	<a href="#" class="btn publish">发布</a>
+</body>
+<script type="text/javascript" src="../utils/jquery.min.js"></script>
+<script src="../utils/Ecalendar.jquery.min.js"></script>
+<!-- 公共js，引入支持返回上一页 -->
+<script type="text/javascript" src="../utils/api.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#ECalendar_date").ECalendar({
+			type:"date",   //模式，time: 带时间选择; date: 不带时间选择;
+			stamp : false,   //是否转成时间戳，默认true;
+			offset:[0,2],   //弹框手动偏移量;
+			format:"yyyy年mm月dd日",   //时间格式 默认 yyyy-mm-dd hh:ii;
+			skin:5,   //皮肤颜色，默认随机，可选值：0-8,或者直接标注颜色值;
+			callback: function(){
+
+			}
+		});
+	})
+</script>
+</html>

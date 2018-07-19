@@ -1,0 +1,116 @@
+.headline {
+  height: 35px;
+  color: #898989;
+  line-height: 35px;
+  text-indent: 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.info h5,
+.kind h5 {
+  color: #000;
+  font-size: 15px;
+  text-indent: 5%;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.info h5 span,
+.kind h5 span {
+  color: #f35050;
+}
+.m2 {
+  margin-left: 2px;
+}
+.m5 {
+  margin-right: 5%;
+}
+.common_input {
+  color: #898989;
+}
+.kind .fn {
+  float: none;
+  margin-left: 7%;
+}
+.kind .common_input {
+  margin-bottom: 15px;
+}
+.kind .ipt_div {
+  float: left;
+  width: 26%;
+  height: 28px;
+  margin-left: 5%;
+  margin-bottom: 12px;
+  border: 1px solid #9c9c9c;
+  border-radius: 5px;
+  color: #898989;
+}
+.kind .ipt_div input[type=text] {
+  width: 70%;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-indent: 2px;
+  text-align: right;
+}
+.kind .ipt_div .double[type=text] {
+  width: 40%;
+}
+.kind select {
+  padding: 0 15px;
+  color: #898989;
+  width: 41%;
+  height: 29px;
+  margin-left: 5%;
+  margin-bottom: 15px;
+}
+.kind span {
+  color: #898989;
+}
+.kind .note textarea {
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid #9c9c9c;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.kind2 {
+  margin-top: 10px;
+}
+.kind2 .common_input[type=text] {
+  width: 45%;
+}
+.kind2 div {
+  margin-bottom: 25px;
+}
+.kind2 div input {
+  margin-left: 5%;
+  position: relative;
+  top: 2px;
+}
+.kind2 div img {
+  width: 15px;
+  margin-left: 10%;
+}
+.publish {
+  display: block;
+  width: 70%;
+  margin: 30px 0 50px 15%;
+  background-color: #2868b3;
+}
+.webuploader-pick {
+  padding: 5px 27%;
+  margin-left: 14%;
+  background-color: #2868b3;
+}
+.webuploader-container {
+  margin-bottom: 20px;
+}
+.file-item {
+  margin-left: 5%;
+  width: 27.8%;
+  display: inline-block;
+}
+.calendarWarp {
+  width: 90%;
+  margin-left: 5%;
+}

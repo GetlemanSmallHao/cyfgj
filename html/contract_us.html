@@ -28,8 +28,12 @@
 	$(document).ready(function(){
 		//标注点数组
     	initMap();//创建和初始化地图
+    	var i = 0;
     	$('.add').on('click',function () {
+    		i+=45;
     		$('.content').fadeToggle('normal');
+    		$(this).css('transform','rotate('+ i +'deg)');
+    		$(this).css('transition','0.5s');
     	})
 	});
 

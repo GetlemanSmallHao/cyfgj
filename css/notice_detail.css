@@ -1,0 +1,37 @@
+.content {
+  padding: 0 5%;
+}
+.content .title {
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+}
+.content .info {
+  font-size: 12px;
+  color: #898989;
+  margin-top: 5px;
+  line-height: 25px;
+  text-align: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+.content .detail {
+  margin: 10px 0;
+  color: #898989;
+}
+footer {
+  padding: 0 5%;
+  margin-top: 10px;
+}
+footer .up {
+  margin-top: 10px;
+}
+footer .blue {
+  color: #2384f6;
+}
+footer .down {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+footer .none {
+  color: #898989;
+}

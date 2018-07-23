@@ -1,0 +1,16 @@
+body {
+  background-color: #fff;
+}
+.item {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10%;
+  border-bottom: 1px solid #dedede;
+}
+.item img {
+  width: 20px;
+  float: right;
+  margin-top: 10px;
+  margin: 10px;
+}

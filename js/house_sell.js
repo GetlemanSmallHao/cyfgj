@@ -2,13 +2,6 @@ $(function() {
 	$("[limit]").limit();
 	$('.house-tt').hide();
 	$('.house-tt').eq(0).show();
-	$('.house-tab .house-tab1').click(function(){
-		$('.small-k').removeClass("small-k-active");
-		$(this).children().addClass("small-k-active");
-		$('.house-tt').hide();
-		$('.house-tt').eq($(this).index()).fadeIn();
-	})
-
 })
 window.onload=window.onresize=function(){
     var html=document.documentElement;

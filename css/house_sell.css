@@ -55,6 +55,7 @@
   line-height: .2rem;
 }
 .small-k {
+  display: block;
   width: 40%;
   margin: 0 auto;
   padding-bottom: .04rem;

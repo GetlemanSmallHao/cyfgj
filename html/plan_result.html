@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+	<title>长垣县房产管理局微信服务平台</title>
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/query_result.css">
+</head>
+<body>
+	<header>
+		<img src="../img/back.png" alt="请重新加载" class="back">
+		<p class="title">查询结果</p>
+		<a class="index_icon" href="./index.html"></a>
+	</header>
+	<div class="info">
+		<div class="left">
+			<p>业务号:</p>
+			<p>申请人:</p>
+			<p>业务名称:</p>
+			<p>处理进度:</p>
+			<p>业务区域:</p>
+		</div>
+		<div class="right">
+			<p>5646496484</p>
+			<p>李四</p>
+			<p>长垣县XXX</p>
+			<p>办理中</p>
+			<p>新乡市</p>
+		</div>
+		<a href="./contract_us.html" class="us" style="display:block;float:right;margin:30px 10px 10px 0;">
+			<img src="../img/contact_us.png" alt="请重新加载" style="width:30px;">
+			<span style="position:relative;top:-8px;color:#4e98ef;">联系我们</span>
+		</a>
+		<div class="clear"></div>
+	</div>
+	<a class="return btn" href="./plan_query.html">返回</a>
+</body>
+<script type="text/javascript" src="../utils/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	p_height();
+	$('.back').on('click',function(){
+		history.go(-1);
+	})
+})
+//动态监听右边每个p标签的高度，并且赋值给左边的p标签
+function p_height(){
+	let count = $('.right p').length;
+	for (let i = 0; i < count; i++) {
+		let height = $('.right p').eq(i).height();
+		$('.left p').eq(i).height(height);
+	};
+}
+</script>
+</html>

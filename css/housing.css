@@ -1,0 +1,71 @@
+.iw_poi_title {
+  color: #CC5522;
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+  padding-right: 13px;
+  white-space: nowrap;
+}
+.iw_poi_content {
+  font: 12px arial, sans-serif;
+  overflow: visible;
+  padding-top: 4px;
+  white-space: -moz-pre-wrap;
+  word-wrap: break-word;
+}
+header {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+.grey {
+  color: #898989;
+}
+.content {
+  position: fixed;
+  display: none;
+  bottom: 110px;
+  left: 14%;
+  width: 72%;
+  background-image: url(../img/contract_background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.content .address {
+  padding: 10px;
+  width: 44%;
+  position: relative;
+  text-align: center;
+  left: 20%;
+  top: -12px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.content img {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 20px;
+}
+.content p {
+  margin-left: 8px;
+  line-height: 25px;
+}
+.content p:last-child {
+  margin-bottom: 35px;
+}
+.add {
+  position: fixed;
+  bottom: 54px;
+  left: 42%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #2868b3;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+.add img {
+  width: 27px;
+  margin-top: 3px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+	<title>长垣县房产管理局微信服务平台</title>
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/housing_detail.css">
+</head>
+<body>
+	<header>
+        <img src="../img/back.png" alt="请重新加载" class="back">
+		<p class="title">操作演示</p>
+		<a class="index_icon" href="./index.html"></a>
+	</header>
+    <div class="item bgf">
+        <p class="grey">提示</p>
+        <p>请携带本人相关材料到办事大厅自助打印</p>
+    </div>
+    <div class="item item2 bgf">
+        <p class="grey">第一步&nbsp;&nbsp;&nbsp;&nbsp;点击进入查询页面</p>
+        <img src="../img/housing_detail.jpg" alt="请重新加载">
+        <p class="grey">第二步&nbsp;&nbsp;&nbsp;&nbsp;选择查询方式</p>
+        <img src="../img/housing_detail.jpg" alt="请重新加载">
+        <p class="grey">第三步&nbsp;&nbsp;&nbsp;&nbsp;根据提示操作</p>
+        <img src="../img/housing_detail.jpg" alt="请重新加载">
+    </div>
+    <a href="#" class="btn know">知道了</a>
+</body>
+<script src="../utils/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+    	$('.add').on('click',function () {
+    		window.location.href = './housing_detail.html';
+    	})
+        $('.back').on('click',function(){
+            history.go(-1);
+        })
+	});	
+</script>
+</html>
